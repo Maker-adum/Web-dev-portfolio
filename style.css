@@ -44,7 +44,9 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+  
 }
+
 section .title{
     position: relative;
     text-align: center;
@@ -438,7 +440,7 @@ section .title::after{
 .btn:hover{
     background: #ff404f;
 } */
-/* contact section styling */
+contact section styling
 .contact .title::after{
     content: "get in touch";
 }

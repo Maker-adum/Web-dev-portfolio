@@ -70,4 +70,11 @@ $(document).ready(function(){
             }
         }
     });
+
+    // Hire me button click to scroll to contact section
+    $('#hire-me-btn').click(function(){
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 1000);
+    });
 });
