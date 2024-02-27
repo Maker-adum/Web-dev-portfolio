@@ -373,7 +373,7 @@ section .title::after{
     width: 70%;
 }
 
-/* ------Portfolio-----
+/* ------Portfolio----- */
 #portfolio{
     padding: 30px 0;
 }
@@ -398,7 +398,6 @@ section .title::after{
 .layer{
     height: 0;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff404f);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -425,21 +424,8 @@ section .title::after{
 .work:hover .layer{
     height: 100%;
 }
-.btn{
-    
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid #ff404f;
-    border-radius: 6px;
-    padding:15px 50px;
-    text-decoration: none;
-    color: white;
-    transition: background 0.5s;
-}
-.btn:hover{
-    background: #ff404f;
-} */
+
+
 contact section styling
 .contact .title::after{
     content: "get in touch";
@@ -536,20 +522,40 @@ contact section styling
   color: purple;
   background: none;
 }
-/* footer section styling */
-footer{
+/* Footer section styling */
+footer {
     background: #111;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
 }
-footer span a{
+
+footer span a {
     color: purple;
     text-decoration: none;
 }
-footer span a:hover{
+
+footer span a:hover {
     text-decoration: underline;
 }
+
+/* Social media icons styling */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: purple;
+}
+
+
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
